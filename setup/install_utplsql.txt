@@ -1,0 +1,3 @@
+sql sys/oracle@localhost:1521/XEPDB1 as sysdba "@install_headless_with_trigger.sql"
+
+sql sys/oracle@localhost:1521/XEPDB1 as sysdba "@create_synonyms_and_grants_for_public.sql"
