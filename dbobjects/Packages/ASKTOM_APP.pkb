@@ -31,7 +31,6 @@ procedure new_question(
 begin
   insert into questions (email, name, notify,question)
   values (p_email,p_name,p_notify,p_question);
-  commit;
 end;
 
 procedure new_feedback(
